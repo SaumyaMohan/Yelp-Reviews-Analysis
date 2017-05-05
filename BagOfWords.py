@@ -37,7 +37,7 @@ def main():
 		count+=1
 
 	print "Creating the bag of words...\n"
-	vectorizer = CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, max_features = 7000)
+	vectorizer = CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, max_features = 5000)
 
 	print "Training the model...\n"
 	training_features = vectorizer.fit_transform(training_reviews)
