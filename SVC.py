@@ -4,7 +4,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import LinearSVC
 from sklearn.metrics import  accuracy_score
 from sklearn.metrics import classification_report
 import re
@@ -35,7 +35,7 @@ def main():
 
 	
 	print "Training the naive bayes..."
-	NB = MultinomialNB()
+	NB = LinearSVC()
 	NB = NB.fit( training_features, training["stars"] )
 
 	testing_features = vectorizer.transform(testing['review'])
