@@ -24,7 +24,7 @@ SKlearn:
 200000/50000 (bigrams/no cleaning)= 0.58709793639
 200000/50000 (bigrams/no cleaning/6000)= 0.589800044034
 200000/50000 (bigrams/no cleaning/7000)= 0.592081823823
-200000/50000 (bigrams/no cleaning/8000)= 0.593462901063
+200000/50000 (bigrams/no cleaning/8000)= 0.593462901063 (another run gave 0.59656532095)
 200000/50000 (bigrams/no cleaning/8000/tf_idf)= 0.591000980765
 
 200000/50000 (trigrams/no cleaning/8000)= 0.590260403114
@@ -34,3 +34,4 @@ SKlearn:
 
 SVC:
 200000/50000 (bigrams/no cleaning/8000)= 0.611677108144
+200000/50000 (bigrams/no cleaning/8000/tf_idf)= 0.620544024339
