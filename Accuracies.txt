@@ -35,4 +35,4 @@ SKlearn:
 
 SVC:
 200000/50000 (bigrams/no cleaning/8000)= 0.611677108144
-200000/50000 (bigrams/no cleaning/8000/tf_idf)= 0.620544024339
+200000/50000 (bigrams/no cleaning/8000/tf_idf)= 0.622625648005
