@@ -1,0 +1,41 @@
+A list of our accuracy results for different classifiers.
+50000/12500/5000 in dicates 50000 training reviews, 12500 testing reviews
+and 5000 features.
+
+
+trainingsize/testingsize/numfeatures	feature vector attributes					accuracy score
+
+Random Forest:
+
+50000/12500/5000						(cleaned/unigrams)							0.536989591673
+50000/12500/7000						(cleaned/unigrams)							0.528502802242
+100000/25000/5000						(cleaned/unigrams)							0.54129138145
+200000/50000/5000						(cleaned/unigrams)							0.548325761063  
+200000/50000/8000						(cleaned/unigrams)							0.547825390789
+
+W2V:
+
+50000/12500																			0.509284456539
+
+Naive Bayes:
+
+50000/12500/5000						(no cleaning) 								0.579478149512
+100000/25000/5000						(no cleaning)								0.575877667027
+100000/25000/5000						(no cleaning/bigrams)						0.583803690805
+100000/25000/5000						(no cleaning/trigrams)						0.581321804571
+
+200000/50000/5000						(no cleaning/bigrams)						0.58709793639
+200000/50000/6000						(no cleaning/bigrams)						0.589800044034
+200000/50000/7000						(no cleaning/bigrams)						0.592081823823
+200000/50000/8000						(no cleaning/bigrams)						0.59656532095 
+200000/50000/8000						(no cleaning/bigrams/tf_idf)				0.591000980765
+
+200000/50000/8000						(no cleaning/trigrams))						0.590260403114
+200000/50000							(cleaned/unigrams)							0.582070732342
+200000/50000 							(cleaned/bigrams)							0.583803690805
+
+
+SVC:
+200000/50000/8000 						(no cleaning/unigrams)						0.595904805748
+200000/50000/8000 						(no cleaning/bigrams)						0.611677108144
+200000/50000/8000 						(no cleaning/bigrams/tf_idf)				0.622625648005
