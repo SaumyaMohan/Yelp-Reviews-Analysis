@@ -38,6 +38,7 @@ Bernoulli Naive Bayes:
 200000/50000/8000 							(cleaned/bigrams)							0.488320890294
 
 SVC:
+200000/50000/8000 						(cleaned/bigrams)            0.604107039209
 200000/50000/8000 						(no cleaning/unigrams)						0.595904805748
 200000/50000/8000 						(no cleaning/bigrams)						0.611677108144
 200000/50000/8000 						(no cleaning/bigrams/tf_idf)				0.622625648005
