@@ -17,7 +17,7 @@ W2V:
 
 50000/12500																			0.509284456539
 
-Naive Bayes:
+Mutinomial Naive Bayes:
 
 50000/12500/5000						(no cleaning) 								0.579478149512
 100000/25000/5000						(no cleaning)								0.575877667027
@@ -31,8 +31,8 @@ Naive Bayes:
 200000/50000/8000						(no cleaning/bigrams/tf_idf)				0.591000980765
 
 200000/50000/8000						(no cleaning/trigrams))						0.590260403114
-200000/50000							(cleaned/unigrams)							0.582070732342
-200000/50000 							(cleaned/bigrams)							0.583803690805
+200000/50000/8000							(cleaned/unigrams)							0.582070732342
+200000/50000/8000 							(cleaned/bigrams)							0.583803690805
 
 
 SVC:
