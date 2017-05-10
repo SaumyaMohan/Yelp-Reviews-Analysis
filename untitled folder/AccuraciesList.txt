@@ -1,6 +1,5 @@
 A list of our accuracy results for different classifiers.
-50000/12500/5000 in dicates 50000 training reviews, 12500 testing reviews
-and 5000 features.
+50000/12500/5000 indicates 50000 training reviews, 12500 testing reviews nand 5000 features.
 
 
 trainingsize/testingsize/numfeatures	feature vector attributes					accuracy score
