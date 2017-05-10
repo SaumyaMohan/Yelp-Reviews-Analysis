@@ -33,6 +33,9 @@ Mutinomial Naive Bayes:
 200000/50000/8000							(cleaned/unigrams)							0.582070732342
 200000/50000/8000 							(cleaned/bigrams)							0.583803690805
 
+Bernoulli Naive Bayes:
+
+200000/50000/8000 							(cleaned/bigrams)							0.488320890294
 
 SVC:
 200000/50000/8000 						(no cleaning/unigrams)						0.595904805748
